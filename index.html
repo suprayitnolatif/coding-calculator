@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel ="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form class="form" name="supri">
+            <input class="value" name="coy" readonly placeholder="0">
+
+            <span class="clear" onclick="supri.coy.value=''">C</span>
+            <span onclick="supri.coy.value=supri.coy.value.slice(0,-1)">del</span>
+            <span onclick="supri.coy.value+='/'">/</span>
+            <span onclick="supri.coy.value+='*'">*</span>
+            <span onclick="supri.coy.value+='7'">7</span>
+            <span onclick="supri.coy.value+='8'">8</span>
+            <span onclick="supri.coy.value+='9'">9</span>
+            <span onclick="supri.coy.value+='+'">+</span>
+            <span onclick="supri.coy.value+='4'">4</span>
+            <span onclick="supri.coy.value+='5'">5</span>
+            <span onclick="supri.coy.value+='6'">6</span>
+            <span onclick="supri.coy.value+='-'">-</span>
+            <span onclick="supri.coy.value+='1'">1</span>
+            <span onclick="supri.coy.value+='2'">2</span>
+            <span onclick="supri.coy.value+='3'">3</span>
+            <span class="equal" onclick="supri.coy.value=eval(supri.coy.value)">=</span>
+            <span onclick="supri.coy.value+='00'">00</span>
+            <span onclick="supri.coy.value+=','">,</span>
+            <span onclick="supri.coy.value+='0'">0</span>
+            
+
+
+    </form>
+          </body>
+          </html>

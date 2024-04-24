@@ -1,0 +1,44 @@
+{
+    padding: 10px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing; bolder-box;
+}
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: blue;
+    }
+.value{
+    grid-column: span 4;
+    width: 240px;
+    height: 80px;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+}
+span{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: aqua;
+    background: darkgreen;
+    place-items: center;
+    border: 1px salmon (153, 96, 96);
+}
+.smd{
+    background-color: aqua (13, 129, 238);
+    grid-row: span 2;
+    height: 120px;
+    margin-top: -40px;
+}
+.form{
+    display: grid;
+    position: relative;
+}
+.equal{
+    margin-bottom: -60px;
+    height: 120px;
+}
